@@ -1,0 +1,11 @@
+#!/bin/sh
+
+export SQLITE_PATH=/Users/bukinigor/go/src/y-test/y-test.db;
+export SERVER_PORT=8080;
+export JWT_SECRET=2zzFBsHBM7g3F2dmZJxZEK5ttYPYYG_iQwoSoIhXfoQ;
+export STORAGE_ENDPOINT=127.0.0.1:9000;
+export STORAGE_ACCESS_KEY_ID=AKIAIOSFODNN7EXAMPLE;
+export STORAGE_SECRET_ACCESS_KEY=wJalrXUtnFEMI/K7MDENG/bPxRfiCYEXAMPLEKEY;
+export STORAGE_USESSL=false
+
+./bin/*
